@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+.cont {
+    height: 100%;
+}
+
+.container {
+    margin: 80px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: lightgreen;
+    height: 100%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 50px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+#f {
+    width: 23%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: content-box;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#long {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+thead {
+    background-color: lightgreen;
+}
+
+.foter {
+    margin-left: 1000px;
+}
+
+.la {
+    border: 2px solid black;
+}
+
+.namesectionroll {
+    width: 90%;
+    height: 20%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    column-gap: 5px;
+    text-align: center;
+    margin: 40px;
+}
